@@ -6,4 +6,5 @@
  *
  */
 module MarketProject {
+	requires java.desktop;
 }
