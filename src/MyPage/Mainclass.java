@@ -1,11 +1,15 @@
 package MyPage;
 
+import javax.swing.SwingUtilities;
 
-public class Mainclass{
-		
+public class MainClass {
 	public static void main(String[] args) {
-		
-		new HomePannel();
-		
+		SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				MyFrame my = new MyFrame();
+				my.setVisible(true);
+			}
+		});
 	}
+
 }
