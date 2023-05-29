@@ -1,4 +1,4 @@
-package board.write;
+package board_write;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -65,7 +65,7 @@ public class BoardWrite extends JFrame implements ActionListener {
 		JPanel endPanel = new JPanel();
 		sell = new JLabel("판매 여부");
 		comboBox = new JComboBox();
-		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Y", "N"}));
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"N", "Y"}));
 		btn = new JButton("등록");
 		btn.setPreferredSize(new Dimension(200, 40));
 		btn.addActionListener(this);

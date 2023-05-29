@@ -1,4 +1,4 @@
-package board.write;
+package board_write;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
